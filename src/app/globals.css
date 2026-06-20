@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0B0D12;
+  --foreground: #F8FAFC;
+  --card: #131722;
+  --border-card: #1E2538;
+  --border-muted: #1e293b;
+  --slate-card: #1e293b;
+  --gradient-start: #ffffff;
+}
+
+.light {
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+  --card: #FFFFFF;
+  --border-card: #E2E8F0;
+  --border-muted: #CBD5E1;
+  --slate-card: #F1F5F9;
+  --gradient-start: #0F172A;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-primary: #6D5EF7;
+  --color-accent: #6D5EF7;
+  --color-border-card: var(--border-card);
+  --color-border-muted: var(--border-muted);
+  --color-slate-card: var(--slate-card);
+  
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Custom scrollbar to match premium dashboard design */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-card);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6D5EF7;
+}
+
+/* Premium gradient animations and utility classes */
+.glow-border {
+  position: relative;
+}
+.glow-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(135deg, #6D5EF733, transparent 50%);
+  border-radius: inherit;
+  z-index: -1;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.glow-border:hover::after {
+  background: linear-gradient(135deg, #6D5EF766, transparent 50%);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, var(--gradient-start), #94a3b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accent-gradient-text {
+  background: linear-gradient(135deg, var(--gradient-start), #6D5EF7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
