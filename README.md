@@ -20,6 +20,8 @@ Discover YouTube creators based on:
 
 Scoutly analyzes creators and surfaces the highest-fit opportunities.
 
+<img width="1918" height="975" alt="Screenshot 2026-06-20 165104" src="https://github.com/user-attachments/assets/f582bf97-1b1b-4f1f-9020-5f2882c0568c" />
+
 ### Creator Fit Engine
 
 Every creator is scored using multiple qualification signals:
@@ -33,6 +35,8 @@ Every creator is scored using multiple qualification signals:
 
 This helps prioritize creators most likely to benefit from professional editing services.
 
+<img width="1918" height="977" alt="Screenshot 2026-06-20 165114" src="https://github.com/user-attachments/assets/04cbd205-9310-4ff2-9926-7ee9233708bb" />
+
 ### Opportunity Qualification
 
 Scoutly automatically evaluates:
@@ -44,6 +48,8 @@ Scoutly automatically evaluates:
 * Audience momentum
 
 Each creator receives an Opportunity Score and Fit Score.
+
+<img width="1918" height="977" alt="Screenshot 2026-06-20 165126" src="https://github.com/user-attachments/assets/e663516c-b663-47b2-8c3f-da608883754b" />
 
 ### Sprint-Based Discovery
 
@@ -68,6 +74,8 @@ Track creators through:
 
 Manage your outreach process from discovery to conversion.
 
+<img width="1918" height="980" alt="Screenshot 2026-06-20 165204" src="https://github.com/user-attachments/assets/f87b5ef2-1c51-482a-ae89-eec0740f25c9" />
+
 ### Creator Profiles
 
 View detailed creator insights including:
@@ -79,6 +87,8 @@ View detailed creator insights including:
 * Opportunity score
 * Fit score
 * Editing pain points
+
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/5c6154d3-5eb4-429a-873e-7592029c5b47" />
 
 ---
 
